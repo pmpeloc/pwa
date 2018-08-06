@@ -1,0 +1,104 @@
+<!DOCTYPE HTML> <!-- Indica la version de HTML que se va a utilizar en este caso HTML5 -->
+<html lang="es"> <!-- En esta etiqueta se encuentra todo el contenido y lang="es" hace referencia al idioma -->
+  <head> <!-- Sección donde se cargan datos que generalmente no los ve el usuario metadata -->
+    <meta charset="utf-8"> <!-- Etiqueta meta para definir el uso de acentos -->
+    <title>Curso más PWA - ByCode</title> <!-- Titulo de la pestaña -->
+    <!--PASO 2: agregar el favicon al sitio -->
+    <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+  </head>
+  <body>
+    <!-- PASO 3: agregar id main-header a header -->
+    <header id="main-header">
+      <!-- PASO 2: agregar container para el logo y el menu (Tabular) -->
+      <div class="container"> <!-- Utilizando class se hace referencia a mas de un elemento con el mismo nombre -->
+        <div id="logo"> <!-- Div es para definir un espacio, id es para definir un elemento unico -->
+          <h1>ByCode Software</h1>
+        </div>
+        <div id="menu">
+          <ul> <!-- Etiqueta para definir una lista -->
+            <li>  <!-- Etiqueta para definir un elemento de la lista -->
+              <a href="#"> <!--Etiqueta para crear un enlace (hipervínculo) -->
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Servicios
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Videos
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div> <!-- End Menu -->
+      </div> <!--End Container Ahora PASO 3: agregar un id a la etiqueta header -->
+      <!-- Ahora PASO 2: agregar el container para el menu y el logo (mostrar inspector)-->
+    </header>
+    <!-- Crear el div para el slider (Seccion 3 item 6) -->
+    <div id="slider">
+      <div class="container">
+        <h2>Desarrollador Web y profesor</h2>
+      </div>
+    </div>
+    <!-- Crear el div para Servicios -->
+    <!-- Será necesario definir un div por cada servicio (a su vez cada uno contiene imagen y texto) -->
+    <!-- Preparar la carpeta img en el directorio del proyecto. Explicar los diferentes gráficos (favicon) -->
+    <div id="services"> <!-- Ahora PASO 2: Agregar el favicon al sitio (etiqueta link)-->
+      <h2 class="subheader">Servicios</h2> <!-- Crear el div para los servicios (Seccion 3 item 7) -->
+      <div class="service">
+        <img src="img/1.png">
+        <h3>Desarrollo Web</h3>
+        <p>
+          Ofrezco servicio de desarrollo web moderno con las mejores tecnologías y plataformas web.
+        </p>
+      </div>
+      <!-- Copiar dos veces el div class service -->
+      <div class="service">
+        <img src="img/2.png">
+        <h3>Diseño Web</h3>
+        <p>
+          Diseños de sitios y aplicaciones web moderno, limpio y atractivo para tus clientes.
+        </p>
+      </div>
+      <div class="service">
+        <img src="img/3.png">
+        <h3>Mentoría</h3>
+        <p>
+          Puedo ser tu mentor o profesor para enseñarte desarrollo y programacion web moderna.
+        </p>
+      </div>
+    </div> <!-- End Servicios -->
+    <!-- Crear el div para los videos (Seccion 3 item 8) -->
+    <div id="videos">
+      <div class="container">
+        <h2 class="subheader">Videos</h2>
+        <div class="video">
+          <!-- Agregar Iframe para los videos -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tKFdYWmHQuQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p>
+            El diseño web va a cambiar radicalmente este año. ¡No te quedes atrás! Descubre ahora las 10 tendencias que vamos a ver de 2018 a 2019.
+          </p>
+        </div> <!-- Copiar 2 veces y agregar diferente iframes -->
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/B5gHQ0glwIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p>
+            Esta es la lista de tecnologías que te harán un profesional exitoso y deseado por la industria tech en 2018.
+          </p>
+        </div>
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7i9MPDmM0ps" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p>
+            ¿Qué les parece si conversamos de las tendencias que se vienen en UX Design para este 2018?
+          </p>
+        </div>
+      </div>
+    </div> <!-- End Videos -->
+  </body>
+<html>
